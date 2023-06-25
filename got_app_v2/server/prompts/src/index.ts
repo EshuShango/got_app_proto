@@ -6,8 +6,8 @@ const startPromptServer = async () => {
     return res.status(200).json({ message: "PromptServer says Hello" });
   });
 
-  app.listen(8003, () => {
-    console.log("PromptServer Listening on port http://localhost:8003");
+  app.listen(8005, () => {
+    console.log("PromptServer Listening on port http://localhost:8005");
   });
 };
 
